@@ -1,4 +1,9 @@
-const element = document.querySelector("paragraph-js")
+const input = document.querySelector("#main-input")
 
-console.log(element.innerText)
+function cliqueiNoBotao(){
+    alert("Botão clicado !")
+}
 
+function digiteiNoInput(){
+    console.log(input.value)
+}
